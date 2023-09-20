@@ -10,7 +10,8 @@
 
 import urllib.request
 from bs4 import BeautifulSoup
-urllib.request.urlretrieve('https://www.reddit.com/r/funny/comments/16brnzb/self_aware/')
+url = input()
+urllib.request.urlretrieve(url)
  
 file = open("text_file.txt", "r")
 contents = file.read()
